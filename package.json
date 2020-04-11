@@ -1,0 +1,22 @@
+{
+  "name": "clockify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "storybook": "start-storybook"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@storybook/addon-a11y": "^5.3.18",
+    "@storybook/addon-storysource": "^5.3.18",
+    "@storybook/html": "^5.3.18",
+    "babel-loader": "^8.1.0",
+    "file-loader": "^6.0.0"
+  }
+}

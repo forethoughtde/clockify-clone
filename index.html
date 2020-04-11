@@ -1,0 +1,88 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Clockify</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/shareable_styles.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/sidebar.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <!--[if IE]>
+  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+  <div class="clockify_wrapper">
+    <header class="main_header flex_mobile flex_align_items_center_mobile flex_justify_content_space_between_mobile">
+
+      <!--Burger Menu Icon-->
+      <div class="clockify_burger_menu_icon flex_universal flex_align_items_center_universal flex_justify_content_center_universal cursor_pointer">
+        <button class="btn_icon cursor_pointer">
+          <img src="img/burger_icon.svg" alt="three horizontal brown line stacked on each other with spacing in between.">
+        </button>
+      </div>
+
+      <!--Clockify Logo-->
+      <div class="clockify_logo">
+        <a href="/" class="display_inline_block_mobile">
+          <img src="img/logo.svg" alt="Clocify logo">
+        </a>
+      </div>
+
+      <!--Notification Button-->
+      <div class="position_relative_universal clockify_notification_icon flex_universal flex_align_items_center_universal flex_justify_content_center_universal cursor_pointer">
+        <button class="btn_icon cursor_pointer" id="clockify_notification_btn">
+          <img src="img/notification.svg" alt="bell icon">
+        </button>
+        <section class="position_absolute_universal clockify_popup clockify_popup_notification">
+          <h4 class="text_uppercase clockify_popup_head">Notifications</h4>
+          <p>No new notifications</p>
+        </section>
+      </div>
+
+    </header>
+
+
+
+
+  </div>
+
+
+  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+          integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+          crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/notificationButton.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function(){
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('set', 'transport', 'beacon');
+    ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>

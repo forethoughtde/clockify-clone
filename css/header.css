@@ -1,0 +1,18 @@
+.main_header {
+  width: 100%;
+  height: 7.5rem;
+  padding: 1rem;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+}
+
+.clockify_notification_icon, .clockify_burger_menu_icon{
+  width: 6rem;
+  height: 6rem;
+}
+
+.clockify_burger_menu_icon img{
+  width: 3.375rem;
+  height: 3.375rem;
+}
+

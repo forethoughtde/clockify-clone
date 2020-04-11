@@ -1,0 +1,96 @@
+.display_inline_block_mobile {
+  display: inline-block;
+}
+
+.flex_mobile {
+  width: 100%;
+  display: flex;
+}
+
+.position_relative_universal {
+  position: relative;
+}
+
+.position_absolute_universal {
+  position: absolute;
+}
+
+.flex_align_items_center_mobile {
+  align-items: center;
+}
+
+.flex_justify_content_center_mobile {
+  justify-content: center;
+}
+
+.flex_justify_content_space_between_mobile {
+  justify-content: space-between;
+}
+
+.flex_universal {
+  display: flex;
+}
+
+.flex_align_items_center_universal {
+  align-items: center;
+}
+
+.flex_justify_content_center_universal {
+  justify-content: center;
+}
+
+.cursor_pointer {
+  cursor: pointer;
+}
+
+.btn_icon {
+  width: 6rem;
+  height: 6rem;
+}
+
+.visibility_visible{
+  visibility: visible !important;
+}
+
+.clockify_popup {
+  padding: 1rem 0;
+  min-width: 260px;
+  max-width: 300px;
+  background-color: #ffffff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+  right: 1rem;
+  bottom: -100%;
+  transform: translateY(25%);
+  visibility: hidden;
+  transition: visibility 0.1s;
+}
+
+.clockify_popup_head {
+  font-size: 1.5rem;
+  color: #999;
+  padding: 0 2rem 1rem 2rem;
+  margin: 0;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+
+.clockify_popup p{
+  font-size: 1.5rem;
+  color: #999;
+  padding: 1rem 2rem 1rem 2rem;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+
+.clockify_popup p:hover{
+  background-color: #e4eaee;
+  color: #333;
+}
+
+.text_uppercase {
+  text-transform: uppercase;
+}
+
+.bg_main_color{
+  background-color: var(--main-color);
+}
