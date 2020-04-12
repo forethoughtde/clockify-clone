@@ -60,30 +60,165 @@
     <!--Side Menu-->
     <aside id="clockify_sidemenu">
       <div class="clockify_sidemenu_container">
-        <div class="clockify_sidemenu_close_btn clockify_sidebar_menu_item flex_universal flex_align_items_center_universal">
-          <button class="flex_universal flex_align_items_center_universal cursor_pointer" id="clockify_sidemenu_close_btn">
-            <span class="clockify_sidemenu_icon flex_universal flex_align_items_center_universal flex_justify_content_center_universal">
-              <img src="img/mob-sidebar-close.svg" alt="">
-            </span>
-            <span class="display_inline_block_mobile margin_left_2x_mobile">Close</span>
-          </button>
-        </div>
+        <ul class="margin_0 padding_0 list_style_none">
+          <li class="clockify_sidemenu_close_btn clockify_sidebar_menu_item flex_universal flex_align_items_center_universal">
+            <button class="flex_universal flex_align_items_center_universal cursor_pointer" id="clockify_sidemenu_close_btn">
+              <span class="clockify_sidemenu_icon flex_universal flex_align_items_center_universal flex_justify_content_center_universal">
+                <img src="img/mob-sidebar-close.svg" alt="">
+              </span>
+              <span class="clockify_sidemenu_text display_inline_block_mobile margin_left_2x_mobile">Close</span>
+            </button>
+          </li>
 
-        <div class="clockify_sidebar_menu_item flex_universal flex_align_items_center_universal">
-          <button class="flex_universal flex_align_items_center_universal" id="clockify_sidemenu_profile_btn">
-            <span class="clockify_sidemenu_icon clockify_profile_icon flex_universal flex_align_items_center_universal flex_justify_content_center_universal">
-              PK
-            </span>
-            <span class="flex_universal flex_direction_column_universal flex_align_items_left_universal">
-              <span class="display_inline_block_mobile margin_left_2x_mobile clockify_profile_name clockify_sidebar_menu_item_profile_ellipisis text_overflow_ellipsis">
-                Karthikeyan Palaniswamy
+          <li class="clockify_sidebar_menu_item flex_universal flex_align_items_center_universal flex_direction_column_universal">
+            <button class="flex_universal flex_align_items_center_universal clockify_menu_item_has_children button_item_has_children cursor_pointer">
+              <span class="clockify_sidemenu_icon clockify_profile_icon flex_universal flex_align_items_center_universal flex_justify_content_center_universal">
+                PK
               </span>
-              <span class="display_inline_block_mobile margin_left_2x_mobile clockify_profile_current_workspace clockify_sidebar_menu_item_profile_ellipisis text_overflow_ellipsis">
-                Karthikeyan Palaniswamy's Workspace
+              <span class="clockify_sidemenu_text flex_universal flex_direction_column_universal flex_align_items_left_universal">
+                <span class="display_inline_block_mobile margin_left_2x_mobile clockify_profile_name clockify_sidebar_menu_item_profile_ellipisis text_overflow_ellipsis">
+                  Karthikeyan Palaniswamy
+                </span>
+                <span class="display_inline_block_mobile margin_left_2x_mobile clockify_profile_current_workspace clockify_sidebar_menu_item_profile_ellipisis text_overflow_ellipsis">
+                  Karthikeyan Palaniswamy's Workspace
+                </span>
               </span>
-            </span>
-          </button>
-        </div>
+            </button>
+          </li>
+
+          <li class="clockify_sidebar_menu_item flex_universal flex_align_items_center_universal flex_direction_column_universal flex_justify_content_center_universal">
+            <a href="/tracker.html" class="flex_universal flex_align_items_center_universal">
+              <span class="clockify_sidemenu_icon flex_universal flex_align_items_center_universal flex_justify_content_center_universal">
+                <img src="img/timeTracker.svg" alt="">
+              </span>
+              <span class="clockify_sidemenu_text flex_universal flex_direction_column_universal flex_align_items_left_universal">
+                <span class="display_inline_block_mobile margin_left_2x_mobile text_overflow_ellipsis">
+                  Time Tracker
+                </span>
+              </span>
+            </a>
+          </li>
+
+          <li class="clockify_sidebar_menu_item flex_universal flex_align_items_center_universal flex_direction_column_universal flex_justify_content_center_universal">
+            <a href="/dashboard.html" class="flex_universal flex_align_items_center_universal">
+              <span class="clockify_sidemenu_icon flex_universal flex_align_items_center_universal flex_justify_content_center_universal">
+                <img src="img/dashboard.svg" alt="">
+              </span>
+              <span class="clockify_sidemenu_text flex_universal flex_direction_column_universal flex_align_items_left_universal">
+                <span class="display_inline_block_mobile margin_left_2x_mobile text_overflow_ellipsis">
+                  Dashboard
+                </span>
+              </span>
+            </a>
+          </li>
+
+          <li class="clockify_sidebar_menu_item flex_universal flex_align_items_center_universal flex_direction_column_universal flex_justify_content_center_universal">
+            <button class="flex_universal flex_align_items_center_universal cursor_pointer clockify_menu_item_has_children button_item_has_children">
+              <span class="clockify_sidemenu_icon flex_universal flex_align_items_center_universal flex_justify_content_center_universal">
+                <img src="img/reports.svg" alt="">
+              </span>
+              <span class="clockify_sidemenu_text flex_universal flex_direction_column_universal flex_align_items_left_universal">
+                <span class="display_inline_block_mobile margin_left_2x_mobile text_overflow_ellipsis text_uppercase">
+                  Reports
+                </span>
+              </span>
+            </button>
+          </li>
+
+          <li class="clockify_sidebar_menu_item flex_universal flex_align_items_center_universal flex_direction_column_universal flex_justify_content_center_universal">
+            <a href="/projects.html" class="flex_universal flex_align_items_center_universal">
+              <span class="clockify_sidemenu_icon flex_universal flex_align_items_center_universal flex_justify_content_center_universal">
+                <img src="img/projects.svg" alt="">
+              </span>
+              <span class="clockify_sidemenu_text flex_universal flex_direction_column_universal flex_align_items_left_universal">
+                <span class="display_inline_block_mobile margin_left_2x_mobile text_overflow_ellipsis">
+                  Projects
+                </span>
+              </span>
+            </a>
+          </li>
+
+          <li class="clockify_sidebar_menu_item flex_universal flex_align_items_center_universal flex_direction_column_universal flex_justify_content_center_universal">
+            <a href="/projects.html" class="flex_universal flex_align_items_center_universal">
+              <span class="clockify_sidemenu_icon flex_universal flex_align_items_center_universal flex_justify_content_center_universal">
+                <img src="img/teams.svg" alt="">
+              </span>
+              <span class="clockify_sidemenu_text flex_universal flex_direction_column_universal flex_align_items_left_universal">
+                <span class="display_inline_block_mobile margin_left_2x_mobile text_overflow_ellipsis">
+                  Team
+                </span>
+              </span>
+            </a>
+          </li>
+
+          <li class="clockify_sidebar_menu_item flex_universal flex_align_items_center_universal flex_direction_column_universal flex_justify_content_center_universal">
+            <a href="/clients.html" class="flex_universal flex_align_items_center_universal">
+              <span class="clockify_sidemenu_icon flex_universal flex_align_items_center_universal flex_justify_content_center_universal">
+                <img src="img/clients.svg" alt="">
+              </span>
+              <span class="clockify_sidemenu_text flex_universal flex_direction_column_universal flex_align_items_left_universal">
+                <span class="display_inline_block_mobile margin_left_2x_mobile text_overflow_ellipsis">
+                  Clients
+                </span>
+              </span>
+            </a>
+          </li>
+
+          <li class="clockify_sidebar_menu_item flex_universal flex_align_items_center_universal flex_direction_column_universal flex_justify_content_center_universal">
+            <a href="/tags.html" class="flex_universal flex_align_items_center_universal">
+              <span class="clockify_sidemenu_icon flex_universal flex_align_items_center_universal flex_justify_content_center_universal">
+                <img src="img/tags.svg" alt="">
+              </span>
+              <span class="clockify_sidemenu_text flex_universal flex_direction_column_universal flex_align_items_left_universal">
+                <span class="display_inline_block_mobile margin_left_2x_mobile text_overflow_ellipsis">
+                  Tags
+                </span>
+              </span>
+            </a>
+          </li>
+
+          <li class="clockify_sidebar_menu_item flex_universal flex_align_items_center_universal flex_direction_column_universal flex_justify_content_center_universal">
+            <a href="/workspace.html" class="flex_universal flex_align_items_center_universal">
+              <span class="clockify_sidemenu_icon flex_universal flex_align_items_center_universal flex_justify_content_center_universal">
+                <img src="img/workspaces.svg" alt="">
+              </span>
+              <span class="clockify_sidemenu_text flex_universal flex_direction_column_universal flex_align_items_left_universal">
+                <span class="display_inline_block_mobile margin_left_2x_mobile text_overflow_ellipsis">
+                  Workspace
+                </span>
+              </span>
+            </a>
+          </li>
+
+          <li class="clockify_sidebar_menu_item flex_universal flex_align_items_center_universal flex_direction_column_universal flex_justify_content_center_universal">
+            <button class="flex_universal flex_align_items_center_universal cursor_pointer clockify_menu_item_has_children button_item_has_children">
+              <span class="clockify_sidemenu_icon flex_universal flex_align_items_center_universal flex_justify_content_center_universal">
+                <img src="img/support_icon.svg" alt="">
+              </span>
+              <span class="clockify_sidemenu_text flex_universal flex_direction_column_universal flex_align_items_left_universal">
+                <span class="display_inline_block_mobile margin_left_2x_mobile text_overflow_ellipsis text_uppercase">
+                  Support
+                </span>
+              </span>
+            </button>
+          </li>
+
+          <li class="clockify_sidebar_menu_item flex_universal flex_align_items_center_universal flex_direction_column_universal flex_justify_content_center_universal">
+            <a href="/upgrade.html" class="flex_universal flex_align_items_center_universal">
+              <span class="clockify_sidemenu_icon flex_universal flex_align_items_center_universal flex_justify_content_center_universal">
+                <img src="img/upgrade-icon.svg" alt="">
+              </span>
+              <span class="clockify_sidemenu_text flex_universal flex_direction_column_universal flex_align_items_left_universal">
+                <span class="display_inline_block_mobile margin_left_2x_mobile text_overflow_ellipsis">
+                  Upgrade
+                </span>
+              </span>
+            </a>
+          </li>
+
+        </ul>
+
+
       </div>
     </aside>
 

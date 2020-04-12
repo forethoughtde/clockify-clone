@@ -1,7 +1,9 @@
 import './../../css/button.css'
 import burgerIcon from "./../../img/burger_icon.svg";
+import { withA11y } from '@storybook/addon-a11y';
 
-export default { title: 'Button' };
+
+export default { title: 'Button', decorators: [withA11y] };
 
 const burgerImageAttributes = {
   src: burgerIcon,

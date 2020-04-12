@@ -26,14 +26,20 @@
 }
 
 .clockify_sidebar_menu_item {
-  height: 60px;
+  min-height: 60px;
   padding: 1rem 2rem;
+}
+
+.clockify_sidebar_menu_item a{
+  color: var(--text-color-black-90);
+  text-transform: uppercase;
 }
 
 .clockify_sidemenu_icon {
   width: 4rem;
   height: 4rem;
   min-width: 4rem;
+  max-width: 4rem;
 }
 
 .clockify_profile_icon {
@@ -53,12 +59,65 @@
 }
 
 .clockify_sidebar_menu_item:first-child {
-  border-left: 0.4rem solid #607d8b
+  border-left: 0.5rem solid #607d8b
+}
+
+.clockify_sidebar_menu_item:nth-child(2) {
+  border-left: 0.5rem solid var(--sidemenu-color-red)
+}
+
+.clockify_sidebar_menu_item:nth-child(3) {
+  border-left: 0.5rem solid #ff9800;
+}
+
+.clockify_sidebar_menu_item:nth-child(4) {
+  border-left: 0.5rem solid #8bc34a;
+}
+
+.clockify_sidebar_menu_item:nth-child(5) {
+  border-left: 0.5rem solid #e91e63;
+}
+
+.clockify_sidebar_menu_item:nth-child(6) {
+  border-left: 0.5rem solid #fbc02d;
+}
+
+.clockify_sidebar_menu_item:nth-child(7) {
+  border-left: 0.5rem solid #9c27b0;
+}
+
+.clockify_sidebar_menu_item:nth-child(8) {
+  border-left: 0.5rem solid #4caf50;
+}
+
+.clockify_sidebar_menu_item:nth-child(9) {
+  border-left: 0.5rem solid #3f51b5;
+}
+
+.clockify_sidebar_menu_item:nth-child(10) {
+  border-left: 0.5rem solid #009688;
+}
+
+.clockify_sidebar_menu_item:nth-child(11) {
+  border-left: 0.5rem solid #ff5722;
+}
+
+.clockify_sidebar_menu_item:nth-child(12) {
+  border-left: 0.5rem solid #673ab7;
 }
 
 .clockify_sidebar_menu_item_profile_ellipisis {
-  width: 182px;
+  width: 150px;
   overflow: hidden;
   white-space: nowrap;
   text-align: left;
+}
+
+.clockify_sidemenu_text {
+  width: calc(224px - 32px); /* 224 px is the actual width of the sidemenu without padding and 32 is the size of the sidemenu icon*/
+  text-align: left;
+}
+
+.clockify_sidemenu_text span:last-child {
+  padding-bottom: 0;
 }
