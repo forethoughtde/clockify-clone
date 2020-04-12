@@ -28,11 +28,20 @@
 }
 
 .flex_universal {
+  width: 100%;
   display: flex;
+}
+
+.flex_direction_column_universal{
+  flex-direction: column;
 }
 
 .flex_align_items_center_universal {
   align-items: center;
+}
+
+.flex_align_items_left_universal{
+  align-items: flex-start;
 }
 
 .flex_justify_content_center_universal {
@@ -67,7 +76,7 @@
 
 .clockify_popup_head {
   font-size: 1.5rem;
-  color: #999;
+  color: var(--text-color);
   padding: 0 2rem 1rem 2rem;
   margin: 0;
   letter-spacing: 1px;
@@ -76,7 +85,7 @@
 
 .clockify_popup p{
   font-size: 1.5rem;
-  color: #999;
+  color: var(--text-color);
   padding: 1rem 2rem 1rem 2rem;
   letter-spacing: 1px;
   font-weight: normal;
@@ -93,4 +102,16 @@
 
 .bg_main_color{
   background-color: var(--main-color);
+}
+
+.margin_left_1x_mobile{
+  margin-left: 1rem;
+}
+
+.margin_left_2x_mobile{
+  margin-left: 2rem;
+}
+
+.text_overflow_ellipsis{
+  text-overflow: ellipsis;
 }
