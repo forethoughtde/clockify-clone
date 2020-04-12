@@ -15,11 +15,13 @@
 
 :root{
   --main-color: #03a9f4;
+  --text-color: #999;
+  --text-color-black-90: rgba(0,0,0,.9);
 }
 
 html {
   color: #222;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 /*
@@ -248,7 +250,7 @@ textarea {
 
   pre,
   blockquote {
-    border: 1px solid #999;
+    border: 1px solid var(--text-color);
     page-break-inside: avoid;
   }
 
