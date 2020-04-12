@@ -27,10 +27,10 @@
 
 .clockify_sidebar_menu_item {
   min-height: 60px;
-  padding: 1rem 2rem;
+  padding: 0 2rem;
 }
 
-.clockify_sidebar_menu_item a{
+.clockify_sidebar_menu_item a {
   color: var(--text-color-black-90);
   text-transform: uppercase;
 }
@@ -104,6 +104,41 @@
 
 .clockify_sidebar_menu_item:nth-child(12) {
   border-left: 0.5rem solid #673ab7;
+}
+
+.clockify_sidebar_menu_item > a, .clockify_sidebar_menu_item > button {
+    padding: 1.75rem 0;
+}
+
+.clockify_sidebar_menu_item_sub > a, .clockify_sidebar_menu_item_sub > button {
+  padding: 0;
+}
+
+.clockify_sidebar_menu_item_sub {
+  border-left: none !important;
+}
+
+.sub_items {
+  background-color: #f2f6f8;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s;
+  transform-origin: top;
+  margin: 0 0 0 0.5rem;
+}
+
+.button_item_has_children-open + .sub_items {
+  max-height: none;
+  height: auto;
+}
+
+.clockify_sidebar_menu_item_sub {
+  min-height: 5rem;
+  padding: 0.5rem 2rem;
+}
+
+.clockify_sidebar_menu_item_sub a {
+  color: #666;
 }
 
 .clockify_sidebar_menu_item_profile_ellipisis {
